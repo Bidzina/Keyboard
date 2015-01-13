@@ -1,0 +1,60 @@
+body{
+	background-color: black;
+}
+
+#words{
+    background-color:#eeeeee;
+    border-style:solid;
+    border-width: 3px;
+    border-color: #75BA93;
+    height:100px;
+    width:800px;
+    float:left;
+    padding:5px;
+    
+}
+
+h1{
+	color: #C7E52F;
+}
+
+#inputtext{
+	padding-left: 20px;
+	margin-top:20px;
+	width: 815px;
+	height: 35px;
+	border-style: solid;
+	border-width:3px;
+	border-color: #75BA93;
+	font-size: 20px;
+	
+}
+.word{
+	font-size:20px;
+	margin-left: 10px;
+}
+
+.active{
+	border: 1px solid #A0A0A0;
+	background-color: #87CEFA;
+	border-radius: 5px;
+}
+
+#result{
+	margin-top: 20px;
+}
+
+#result1{
+	border:1px solid #A0A0A0;
+	background-color: yellow;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+#result2{
+	border:1px solid #A0A0A0;
+	background-color: yellow;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
