@@ -22,10 +22,13 @@
 	       	$('#words').find('span').eq(correct + wrong).removeClass('active');
 
 	       	if(x.trim() == mas[1]){
-	       	correct++;
+	       	$('#words').find('span').eq(correct + wrong).addClass('green');
+	 		correct++;
+	       	
 	       	mas.shift();	
 	       	$("#inputtext").val("");
 	       } else{
+	       	$('#words').find('span').eq(correct + wrong).addClass('red');
 	       	wrong++;
 	       	mas.shift();
 	       	$("#inputtext").val("");
