@@ -42,12 +42,14 @@
 	<span class="word" id="word31"></span>
 	<span class="word" id="word32"></span>
 	<span class="word" id="word33"></span>
+	<span class="word" id="word34"></span>
+	<span class="word" id="word35"></span>
 
 	
 </div>
 <div>
 	<input type="text" name="inputtext" id="inputtext">
-	<div id="timer"></div>
+	<span id="timer"></span></p>
 </div>
 
 

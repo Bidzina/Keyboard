@@ -21,7 +21,7 @@ h1{
 #inputtext{
 	padding-left: 20px;
 	margin-top:20px;
-	width: 815px;
+	width: 680px;
 	height: 35px;
 	border-style: solid;
 	border-width:3px;
@@ -78,3 +78,10 @@ h1{
 	padding: 1px;
 }
 
+#timer{
+	border:1px solid #A0A0A0;
+	background-color:yellow;
+	border-radius: 10px;
+	padding: 5px;
+	font-size: 18px;
+}
