@@ -56,7 +56,7 @@
 		var timer = setInterval(function() { 
    		$('#timer').text("You have " + sec-- + " sec");
    		if (sec == -1) {
-      	alert("finish");
+      	$("#inputtext").prop('disabled',true);
       	clearInterval(timer);
    		} 
 				}, 1000);
