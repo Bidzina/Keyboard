@@ -58,16 +58,29 @@
    		if (sec == -1) {
       	$("#inputtext").prop('disabled',true);
       	clearInterval(timer);
+      	$.ajax({
+			type:"POST",
+			url:'result.php',
+			data:{
+				'correct':correct
+			},
+			success:function(result){
+				$("#position").html("Your Position is: " + result).fadeIn();
+			}
+
+		})
    		} 
 				}, 1000);
 
 		once=true;
+
+
 		}	
 
 		});
 		
 
-
+		
 
 
 	});

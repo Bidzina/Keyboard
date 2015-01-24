@@ -58,6 +58,10 @@
 	<p><span id="result2"></span></p>
 </div>
 
+<div >
+	<p><span id="position" hidden></span></p>
+</div>
+
 
 </body>
 </html>
